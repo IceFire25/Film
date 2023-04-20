@@ -9,7 +9,7 @@ function Footer() {
            href="!#">Repository</a>
         </div>
       </div>
-    </footer>
+    </footer> 
 }
     
 export { Footer };
