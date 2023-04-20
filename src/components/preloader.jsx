@@ -2,8 +2,6 @@ import React from 'react'
 
 function Preloader() {
   return <div className='progress'>
-    <div className='indeterminate'></div>
-
     <div class="preloader-wrapper big active">
         <div class="spinner-layer spinner-blue">
             <div class="circle-clipper left">
