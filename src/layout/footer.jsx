@@ -4,7 +4,7 @@ function Footer() {
       <div className="footer-copyright">
         <div className="container">
             © {new Date().getFullYear()}
-            Alina Film
+            _Alina Film
           <a className="grey-text text-lighten-4 right"
            href="!#">Repository</a>
         </div>
