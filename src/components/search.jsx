@@ -45,7 +45,7 @@ import React, { Component } from 'react';
                         datatype= "all"
                         onChange={this.handleFilter}
                         checked={this.state.type === "all"}
-                        />
+                />
                 <span>All</span>
             </label>
             <label>
@@ -54,7 +54,8 @@ import React, { Component } from 'react';
                         type="radio"
                         datatype= "movie"
                         onChange={this.handleFilter}
-                        checked={this.state.type === "movie"}/>
+                        checked={this.state.type === "movie"}
+                />
                 <span>Movies only</span>
             </label>
             <label>
@@ -63,7 +64,8 @@ import React, { Component } from 'react';
                         type="radio"
                         datatype= "series"
                         onChange={this.handleFilter}
-                        checked={this.state.type === "series"}/>
+                        checked={this.state.type === "series"}
+                />
                 <span>Series only</span>
             </label>
         </div>
