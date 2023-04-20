@@ -34,7 +34,7 @@ import React, { Component } from 'react';
                 onKeyDown={this.handleKey}
             />
             <button 
-                className="btn search-btn deep-purple accent-1"
+                className="btn search-btn deep-green accent-1"
                 onClick={() => 
                     this.props.searchMovies(this.state.search, this.state.type)
                 }

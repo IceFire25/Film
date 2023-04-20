@@ -1,6 +1,6 @@
 function Header() {
 
-  return <nav className="deep-purple accent-1">
+  return <nav className="deep-red accent-1">
     <div className="container">
       <div className="nav-wrapper">
         <a href="!#" 
