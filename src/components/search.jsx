@@ -22,27 +22,32 @@ import React, { Component } from 'react';
     };
 
   render() {
-    return <div className='row'>
-      <div className='col s12'>
-        <div className='input-field'>
+    return <div className="row">
+      <div className="col s12">
+        <div className="input-field">
             <input
-                className='validate'
-                placeholder='search'
+                className="validate"
+                placeholder="search"
                 type="search"
                 value={this.state.search}
                 onChange={(e) => this.setState({ search: e.target.value })}
                 onKeyDown={this.handleKey}
             />
-            <button className='btn search-btn deep-purple accent-1'
-                onClick={() => this.props.searchMovies(this.state.search, this.state.type)}>
-            Search</button>
+            <button 
+                className="btn search-btn deep-purple accent-1"
+                onClick={() => 
+                    this.props.searchMovies(this.state.search, this.state.type)
+                }
+            >
+            Search
+            </button>
         </div>
         <div>
             <label>
                 <input class="with-gap" 
                         name="type" 
                         type="radio"
-                        datatype= "all"
+                        data-type= "all"
                         onChange={this.handleFilter}
                         checked={this.state.type === "all"}
                 />
@@ -52,7 +57,7 @@ import React, { Component } from 'react';
                 <input class="with-gap" 
                         name="type" 
                         type="radio"
-                        datatype= "movie"
+                        data-type= "movie"
                         onChange={this.handleFilter}
                         checked={this.state.type === "movie"}
                 />
@@ -62,7 +67,7 @@ import React, { Component } from 'react';
                 <input class="with-gap" 
                         name="type" 
                         type="radio"
-                        datatype= "series"
+                        data-type= "series"
                         onChange={this.handleFilter}
                         checked={this.state.type === "series"}
                 />

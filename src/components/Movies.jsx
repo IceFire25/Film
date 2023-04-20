@@ -9,7 +9,7 @@ function Movies(props) {
             {movies.length ? (
                 movies.map((movie) => <Movie key={movie.imdbID} {...movie} />)
             ) : (
-                <h4>Not found</h4>
+                <h4>· Not found, Opps, 404! :3 · </h4>
             )}
         </div> 
     );
